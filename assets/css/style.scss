@@ -1,0 +1,10 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+@include small {
+  .site-footer-credits {
+    display: inline-block;
+  }
+}

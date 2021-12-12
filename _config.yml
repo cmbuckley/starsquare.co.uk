@@ -1,3 +1,7 @@
-theme: jekyll-theme-cayman
 title: StarSquare Designs
 description: Bringing your great ideas to life.
+url: https://starsquare.co.uk
+permalink: /:title/
+defaults:
+- values:
+    layout: default
