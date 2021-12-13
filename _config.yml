@@ -2,6 +2,7 @@ title: StarSquare Designs
 description: Bringing your great ideas to life.
 url: https://starsquare.co.uk
 permalink: /:title/
+repository: cmbuckley/starsquare.co.uk
 defaults:
 - values:
     layout: default
