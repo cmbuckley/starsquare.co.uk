@@ -5,3 +5,7 @@ permalink: /:title/
 defaults:
 - values:
     layout: default
+plugins:
+- jekyll-titles-from-headings
+titles_from_headings:
+  enabled: true

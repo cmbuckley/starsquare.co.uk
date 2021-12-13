@@ -1,4 +1,5 @@
 ---
+suppress_page_title: true
 ---
 ## You know what you want.
 
