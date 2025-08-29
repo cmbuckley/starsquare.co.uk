@@ -1,4 +1,5 @@
 ---
+layout: none
 ---
 {%- assign six_months = 86400 | times: 30 | times: 6 -%}
 Contact: mailto:security@starsquare.co.uk
