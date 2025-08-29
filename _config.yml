@@ -3,10 +3,16 @@ description: Bringing your great ideas to life.
 url: https://starsquare.co.uk
 permalink: /:title/
 repository: cmbuckley/starsquare.co.uk
+
+include:
+  - .well-known
+
 defaults:
-- values:
-    layout: default
+  - values:
+      layout: default
+
 plugins:
-- jekyll-titles-from-headings
+  - jekyll-titles-from-headings
+
 titles_from_headings:
   enabled: true
