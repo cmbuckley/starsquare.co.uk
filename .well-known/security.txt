@@ -1,0 +1,8 @@
+---
+---
+{%- assign six_months = 86400 | times: 30 | times: 6 -%}
+Contact: mailto:security@starsquare.co.uk
+Expires: {{ site.time | date: '%s' | plus: six_months | date_to_xmlschema }}
+Encryption: https://keybase.io/cmbuckley/pgp_keys.asc
+Preferred-Languages: en-GB
+Canonical: {{ page.path | absolute_url }}
