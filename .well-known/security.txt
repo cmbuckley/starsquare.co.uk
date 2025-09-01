@@ -2,8 +2,8 @@
 layout: none
 ---
 {%- assign six_months = 86400 | times: 30 | times: 6 -%}
-Contact: mailto:security@starsquare.co.uk
+Contact: mailto:security@{{ site.github.repository_name }}
 Expires: {{ site.time | date: '%s' | plus: six_months | date_to_xmlschema }}
-Encryption: https://keybase.io/cmbuckley/pgp_keys.asc
+Encryption: https://keybase.io/{{ site.github.owner_name }}/pgp_keys.asc
 Preferred-Languages: en-GB
 Canonical: {{ page.path | absolute_url }}
